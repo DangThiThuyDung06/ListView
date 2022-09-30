@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
         Random r = new Random();
 
-        arr.add(new DiskView(R.drawable.coffee, 10, "Coffee")); //tap Ctrl+D
-        arr.add(new DiskView(R.drawable.egg, r.nextInt(10) * 5, "Coffee")); //tap Ctrl+D
-        arr.add(new DiskView(R.drawable.pizza, r.nextInt(10) * 5, "Pizza")); //tap Ctrl+D
-        arr.add(new DiskView(R.drawable.pngegg, r.nextInt(10) * 5, "Spaghetti")); //tap Ctrl+D
-        arr.add(new DiskView(R.drawable.salad, r.nextInt(10) * 5, "Salad")); //tap Ctrl+D
+        arr.add(new DiskView(R.drawable.chomchom, 10, "Rambutan")); //tap Ctrl+D
+        arr.add(new DiskView(R.drawable.dua, r.nextInt(10) * 5, "Coconut")); //tap Ctrl+D
+        arr.add(new DiskView(R.drawable.luu, r.nextInt(10) * 5, "Pomegranate")); //tap Ctrl+D
+        arr.add(new DiskView(R.drawable.nhan, r.nextInt(10) * 5, "Longan")); //tap Ctrl+D
+        arr.add(new DiskView(R.drawable.vai, r.nextInt(10) * 5, "Lychee")); //tap Ctrl+D
 
         DiskAdapter adapter = new DiskAdapter(this, 0, arr);
         lsvdisk.setAdapter(adapter);
